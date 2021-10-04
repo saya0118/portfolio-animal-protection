@@ -1,0 +1,174 @@
+
+body{
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+<!-----------header---------------->
+header{
+    box-sizing: border-box;
+    position: fixed;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.top-bar {
+    background-color: gray;
+}
+
+.French{
+    color: white;
+    text-align: right;
+    padding-top: 7.5px;
+    text-decoration: underline;
+    height: 30px;
+    margin: auto;
+    width: 90%;
+    max-width: 1108px;
+    margin: auto;
+}
+
+.French:hover {
+    color: #E85D01;
+    cursor: pointer;
+}
+
+.main-header{
+    width: 80%;
+    max-width: 1108px;
+    margin: auto;
+    height: 65px;
+    background-color: white; 
+    margin-bottom: 0; 
+}
+
+.main-header-logo{
+    height: 31px;
+    margin-top: 17px;
+}
+
+.main-header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: solid 1px #ececec;
+    margin-top: 1.05%;
+    font-size: 15px;
+    height: 30px;
+    width: 200px;
+    margin-right: 3%;
+}
+
+.sign-button {
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #E85D01;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    margin-top: 0.9%;
+    float: right;
+    box-shadow: 0px 4px #b64d07;
+}
+
+.sign-button:hover{
+    background-color: #b64d07;
+    cursor: pointer;
+}
+
+#topnav ul{
+    background-color: #E4E5E5;
+    height: 45px;
+    list-style: none;
+    display: flex;
+    padding: 0 8%;
+    margin: 0;
+}
+
+#topnav ul li{
+    padding-top: 11px; 
+    flex: 1 0 auto;
+}
+
+#topnav ul li a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#topnav a:hover{
+    color: #E85D01;
+    cursor: pointer;
+
+}
+
+<!---------container--------->
+.introduction-img{
+    width: 100%;
+    
+}
+
+
+.introduction-img img{
+    top: 0px;
+    margin: 0px;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+<!---------footer------------>
+
+.footer-top{
+    background-color: #E3E2E1;
+}
+
+#undernav ul {
+    background-color: #E3E2E1;
+    height: 90px;
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+#undernav ul li {
+  padding-top: 25px; 
+    flex: 1 0 auto;
+}
+
+#undernav ul li a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#undernav a:hover {
+    color: #E85D01;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    color: white;
+    background-color: grey;
+    height: 70px;
+    width: 100%;
+    padding-top: 5px;
+    margin 0 auto;
+}
+
+.sayaka {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 20px
+}

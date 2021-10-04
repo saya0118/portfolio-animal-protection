@@ -1,0 +1,496 @@
+
+body{
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+<!-----------header---------------->
+
+header{
+    box-sizing: border-box;
+    position: fixed;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.top-bar {
+    background-color: gray;
+}
+
+.French{
+    color: white;
+    text-align: right;
+    padding-top: 7.5px;
+    text-decoration: underline;
+    height: 30px;
+    margin: auto;
+    width: 90%;
+    max-width: 1108px;
+    margin: auto;
+}
+
+.French:hover {
+    color: #E85D01;
+    cursor: pointer;
+}
+
+.main-header{
+    width: 80%;
+    max-width: 1108px;
+    margin: auto;
+    height: 65px;
+    background-color: white; 
+    margin-bottom: 0; 
+   
+}
+
+.main-header-logo{
+    height: 31px;
+    margin-top: 17px;
+}
+
+.main-header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: solid 1px #ececec;
+    margin-top: 1.05%;
+    font-size: 15px;
+    height: 30px;
+    width: 200px;
+    margin-right: 3%;
+}
+
+.donate-button {
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #E85D01;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    margin-top: 0.9%;
+    float: right;
+    box-shadow: 0px 2px #b64d07;
+}
+
+.donate-button:hover{
+    background-color: #b64d07;
+    cursor: pointer;
+}
+
+#topnav ul{
+    background-color: #E4E5E5;
+    height: 45px;
+    list-style: none;
+    display: flex;
+    padding: 0 8%;
+    margin: 0;
+}
+
+#topnav ul li{
+    padding-top: 11px; 
+    flex: 1 0 auto;
+}
+
+#topnav ul li a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#topnav a:hover{
+    color: #E85D01;
+    cursor: pointer;
+
+}
+
+<!---------container-upper---------->
+
+.container-upper {
+    background-color:#E3E2E1;
+}
+
+.introduction-img{
+    margin: 0px;
+    background-color: #E3E2E1;
+    padding-bottom: 345px;
+    position: relative;
+
+}
+.introduction-img img{
+    margin-top: 0px;
+    width: 100%;
+
+}
+
+.introduction-box {
+    position: absolute;
+    background-color: white;
+    width: 70%;
+    top: 55%;
+    padding: 0px 10px 20px 10px;
+    margin: 5.7% 15%;
+}
+
+@media screen and (max-width:1366px) {
+    .introduction-box {
+        background-color: white;
+        width: 83%;
+        top: 22.7%;
+        padding: 0px 10px 20px 10px;
+        margin-right: 10%;
+        position: absolute;
+    }
+}
+
+.introbox-highlight {
+    padding-right: 0;
+    height: 90px;
+}
+
+h1{
+    color: #E85D01;
+    font-size: 35px;
+    float: left;
+    margin-top: 13px;
+    
+}
+
+@media screen and (max-width:1366px) {
+    h1{
+        color: #E85D01;
+        font-size: 35px;
+        float: left;
+        margin-top: 18px;
+        margin-left: 40px;
+        
+    }
+}
+
+.donate-button2 {
+    float: right;
+    border: none;
+    font-size: 26px;
+    color: white;
+    background-color: #E85D01;
+    border-radius: 5px;
+    height: 60px;
+    width: 230px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 60px;
+    box-shadow: 0px 5px #b64d07;
+
+}
+
+.donate-button2:hover {
+    background-color:#b64d07;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1366px){
+    .donate-button2 {
+        float: right;
+        border: none;
+        font-size: 26px;
+        color: white;
+        background-color: #E85D01;
+        border-radius: 5px;
+        height: 60px;
+        width: 180px;
+        margin-left: 40px;
+        margin-top: 13px;
+        box-shadow: 0px 5px #b64d07;
+    
+    }
+    
+    .donate-button2:hover {
+        background-color:#b64d07;
+        cursor: pointer;
+    }
+}
+
+.introduction-box-text {
+    font-size: 28px;
+    font-weight: 100px;
+    letter-spacing: 1px;
+    width: 90%;
+    max-width: 980px;
+    margin: auto 5%;
+    float: left;
+}
+
+.introduction {
+    background-color: #E3E2E1;
+    
+}
+
+.introduction2-title {
+    font-size: 22px;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    margin-top:0;
+}
+
+.introduction2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.introduction2-item {
+    width: 30%;
+}
+
+p.introduction2-img img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+<!--------container-bottom---------->
+
+.container-bottom {
+    background-color: white;
+}
+.container-bottom2{
+    justify-content: space-between;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.container-bottom-title {
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    height: 70px;
+    padding-top: 30px;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.h5 :hover{
+    color: #E85D01;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-bottom-item {
+    display: flex;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.container-bottom-img img{
+    width: auto;
+    height: 100%;
+    display: block;
+}
+
+.container-bot-title {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.container-bottom-text {
+    margin: auto;
+    width: 60%;
+}
+
+h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+<!---------footer-------------->
+
+.footer {
+  
+}
+
+.footer-upper{
+    background-color: #E3E2E1;
+}
+
+.footer-block {
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.footer-item {
+    width: 30%;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.footer-title {
+    color: #E85D01;
+    font-size: 20px;
+}
+
+.signup-button {
+    background-color: white;
+    color: #E85D01;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 50px;
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 60px;
+    box-shadow: 0px 2px grey;
+}
+
+.signup-button:hover {
+    background-color:lightgrey;
+    cursor: pointer;
+}
+
+#undernav ul {
+    background-color: #E3E2E1;
+    height: 90px;
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 3%;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+#undernav ul li {
+  padding-top: 25px; 
+    flex: 1 0 auto;
+}
+
+#undernav ul li a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#undernav a:hover {
+    color: #E85D01;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    color: white;
+    background-color: grey;
+    height: 70px;
+    width: 100%;
+    padding-top: 5px;
+    margin 0 auto;
+}
+
+.sayaka {
+    text-align: right;
+    margin-right:30px;
+    margin-top: 20px
+}
+
+/*=================================
+iPhone X
+===================================*/
+@media screen and (max-width:1366px) {
+
+/*=================================
+header
+===================================*/
+
+.header{
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    max-width: 767px;
+    margin: auto;
+}
+
+.top-bar {
+    background-color: gray;
+}
+
+.French{
+    color: white;
+    text-align: right;
+    padding-top: 7.5px;
+    text-decoration: underline;
+    height: 30px;
+    margin: auto;
+    width: 90%;
+    max-width: 767px;
+    margin: auto;
+}
+
+.French:hover {
+    color: #E85D01;
+    cursor: pointer;
+}
+
+.main-header{
+    width: 90%;
+    margin: auto;
+    height: 65px;
+    background-color: white; 
+    margin-bottom: 0; 
+}
+
+.main-header-logo{
+    height: 31px;
+    margin-top: 17px;
+}
+
+.donate-button {
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #E85D01;
+    border-radius: 5px;
+    height: 45px;
+    width: 200px;
+    margin-top: 0.9%;
+    text-align: center;
+    box-shadow: 0px 2px #b64d07;
+}
+
+.Search{
+    display: none;
+}
+
+.introduction-box{
+    margin-bottom: 30%!important;
+}
+
+.h1{
+    float: left;
+}
+
+.donate-botton2{
+    width: 200px;
+   margin-left: 10%;
+}
+
+}

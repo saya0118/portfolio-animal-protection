@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donate.css">
+    <title>Donate Page</title>
+
+</head>
+<body>
+
+<!----------header------------------------------------>
+<header> 
+    <div class="top-bar"> 
+    <p class="French">Français</p>
+    </div>  
+        <div class="main-header">
+            <img class="main-header-logo" src="https://dkt6rvnu67rqj.cloudfront.net/cdn/ff/KcJbIpIzwn_elxoOQwdCMm6FTXuq041J9MDp9MjjCCM/1616214770/:relative:/themes/custom/wap_master/images/svg/wap-inline-logo.svg" alt="">
+            <button class="sign-button">Sign up</button>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <nav id="topnav">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">OUR WORK</a></li>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">WAYS TO GIVE</a></li>
+                <li><a href="">TAKE ACTION</a></li>
+            </ul>
+        </nav>
+</header>
+
+<!--------container--------->
+        
+    <section class="introduction-img">
+        <img src="img/donate.png" alt="">
+    </section>
+
+    <h3>1. Chose your one-time gift amount</h3>
+
+    <table>
+        <tr class="dollars-button">
+            <td><button class="orange">$50</button></td>
+            <td><button>$150</button></td>
+            <td><button>$570</button></td>
+        </tr>
+    </table> 
+
+    <form>
+        <h3>2. Enter your billing information</h3>
+
+        <div class="information">
+            <p>First Name:<br><input type="text"></p>
+            <p>Last Name:<br><input type="text"></p>
+            <p>Street 1:<br><input type="text"></p>
+            <p>City:<br><input type="text"></p>
+            <p>State/Province:<br><input type="text"></p>
+            <p>Postal Code:<br><input type="text"></p>
+            <p>Email Address:<br><input type="email"></p>
+        </div>
+
+        <h3>3. Select your payment method</h3>
+        <div class="methods">
+            <button class="credit-button">Credit Card</button>
+            <img class="paypal" src="data:image/png;base64,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" alt="">
+        </div>
+
+        <div class="credit">
+            <p >Credit Card Number:<br><input type="text" class="credit-number"></p>
+            <div class="A">
+            <label for="Expiration Date">Expiration Date:<br></label>
+            <select name="month" id="month">
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+            </select>
+            <select name="year" id="year">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+                <option value="2031">2031</option>
+            </select>
+            <p>CVV Number:<br><input class="cvv" type="text"></p>
+            </div>
+        </div>
+
+        <p class=submit>
+            <button type="button" onclick="location.href='thankyou.html'" class="submit-button">SUBMIT</button>
+        </p>
+
+    </form>
+
+<!--------footer--------->
+
+    <footer>
+        <div class="footer-upper">
+            <div class="footer-block">
+                <div class="footer-item">
+                    <h4 class="footer-title">Join our community</h4>
+                    <p>With supporters like you, World Animal Protection can tackle the root causes of animal suffering, so that we can make the biggest difference to the greatest number of animals.</p>
+                </div>
+                <div class="footer-item">
+                    <h4 class="footer-title">Sign up to receive emails</h4>
+                    <p>Receive our latest news, petitions, appeals and campaign successes supporters like you make possible.</p>
+                </div>
+                <div class="footer-item">
+                    <button class="signup-button">Sign up</button>
+                 </div>
+             
+            </div>
+
+            <nav id="undernav">
+            <ul>
+                <li><a href>Contact</a></li>
+                <li><a href>Face to Face fundraising</a></li>
+                <li><a href>Jobs</a></li>
+                <li><a href>Login</a></li>
+                <li><a href>Media centre</a></li>
+                <li><a href>Privacy Policy</a></li>
+                <li><a href>Tax receipts</a></li>
+                <li><a href>Back to top</a></li>
+            </ul>
+            </nav>
+
+     </div>
+
+         <div class="footer-bottom">
+             <p class="sayaka">@Sayaka Matsuda</p>
+        </div>
+    </footer>
+ 
+</body>
+</html>

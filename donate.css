@@ -1,0 +1,349 @@
+
+body{
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+<!-----------header---------------->
+header{
+    box-sizing: border-box;
+    position: fixed;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.top-bar {
+    background-color: gray;
+}
+
+.French{
+    color: white;
+    text-align: right;
+    padding-top: 7.5px;
+    text-decoration: underline;
+    height: 30px;
+    margin: auto;
+    width: 90%;
+    max-width: 1108px;
+    margin: auto;
+}
+
+.French:hover {
+    color: #E85D01;
+    cursor: pointer;
+}
+
+.main-header{
+    width: 80%;
+    max-width: 1108px;
+    margin: auto;
+    height: 65px;
+    background-color: white; 
+    margin-bottom: 0; 
+}
+
+.main-header-logo{
+    height: 31px;
+    margin-top: 17px;
+}
+
+.main-header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: solid 1px #ececec;
+    margin-top: 1.05%;
+    font-size: 15px;
+    height: 30px;
+    width: 200px;
+    margin-right: 3%;
+}
+
+.sign-button {
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #E85D01;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    margin-top: 0.9%;
+    float: right;
+    box-shadow: 0px 4px #b64d07;
+}
+
+.sign-button:hover{
+    background-color: #b64d07;
+    cursor: pointer;
+}
+
+#topnav ul{
+    background-color: #E4E5E5;
+    height: 45px;
+    list-style: none;
+    display: flex;
+    padding: 0 8%;
+    margin: 0;
+}
+
+#topnav ul li{
+    padding-top: 11px; 
+    flex: 1 0 auto;
+}
+
+#topnav ul li a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#topnav a:hover{
+    color: #E85D01;
+    cursor: pointer;
+
+}
+
+<!---------container--------->
+
+.introduction-img{
+    width: 100%;
+}
+
+.introduction-img img{
+    top: 0px;
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+.dollars-button{
+    text-align: center;
+    
+}
+
+.dollars-button button{
+    height: 60px;
+    width: 120px;
+    background-color: grey;
+    color: white;
+    border-radius: 7px;
+    margin: 30px;
+    font-size: 32px;
+    border: none;
+    box-shadow: 0 4px rgb(78, 77, 77);
+}
+
+button.orange {
+    background-color: #E85D01;
+    border: none;
+    box-shadow: 0 4px #b64d07;
+}
+
+.dollars-button button:hover{
+   cursor: pointer
+}
+
+.form{
+    text-align: left;
+    
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: lightgrey;
+
+}
+
+.information{
+    text-align: left;
+    margin-left: 38%;
+}
+
+
+.methods{
+    width: 25%;
+    margin: auto;
+    height: 65px;
+    background-color: white; 
+    margin-bottom: 0; 
+}
+
+.credit-button{
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #E85D01;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    margin-top: 0.9%;
+    margin-right: 4%;
+    float: right;
+    box-shadow: 0px 2px #b64d07;
+}
+
+.credit-button:hover{
+    cursor: pointer;
+}
+
+.paypal{
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 3%
+}
+
+.credit{
+    text-align: left;
+    margin-left: 38%;
+}
+
+.credit-number {
+    width: 400px;
+    border-color: lightgrey;
+    border-radius: 3px;
+}
+
+select {
+    width: 100px;
+    border-color: lightgrey;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.cvv{
+    width: 80px;
+}
+
+.submit{
+    text-align: center;
+    height: 100px;
+}
+
+.submit-button{
+    height: 55px;
+    width: 165px;
+    background-color:#E85D01;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px #b65413da;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+    background-color: #b65413da;
+}
+<!---------footer------------>
+
+.footer {
+  
+}
+
+.footer-upper{
+    background-color: #E3E2E1;
+}
+
+.footer-block {
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.footer-item {
+    width: 30%;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.footer-title {
+    color: #E85D01;
+    font-size: 20px;
+}
+
+.signup-button {
+    background-color: white;
+    color: #E85D01;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 50px;
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 60px;
+    box-shadow: 0px 2px grey;
+}
+
+.signup-button:hover {
+    background-color:lightgrey;
+    cursor: pointer;
+}
+
+#undernav ul {
+    background-color: #E3E2E1;
+    height: 90px;
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 3%;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+#undernav ul li {
+  padding-top: 25px; 
+    flex: 1 0 auto;
+}
+
+#undernav ul li a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#undernav a:hover {
+    color: #E85D01;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    color: white;
+    background-color: grey;
+    height: 70px;
+    width: 100%;
+    padding-top: 5px;
+    margin 0 auto;
+}
+
+.sayaka {
+    text-align: right;
+    margin-right:30px;
+    margin-top: 20px
+}
